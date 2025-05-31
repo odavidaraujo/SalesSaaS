@@ -1,0 +1,118 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+
+# Rider
+.idea/
+
+# Packages
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+*.vsix
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+.nuget/packages/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Logs
+*.log
+
+# User-specific files
+*.rsuser
+*.sln.ide
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup & cache
+*.bak
+*.cache
+
+# Publish output
+publish/
+PublishProfiles/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Test results
+TestResults/
+
+# Visual Studio Code
+.vscode/
+
+# Others
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Ignore any secrets file
+*.secret.json
+
+
+# Ignore Environment variables
+.env
+
+
+# Front End
+
+# ASP.NET Core e Blazor
+bin/
+obj/
+wwwroot/css/*
+!wwwroot/css/site.css   # mantém seu CSS principal, se necessário
+wwwroot/js/*
+!wwwroot/js/site.js     # mantém seu JS principal, se necessário
+
+# TailwindCSS (caso use Node.js com PostCSS)
+node_modules/
+dist/
+.env
+*.env.*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDEs
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Log / Temp
+*.log
+*.tmp
+*.temp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Dependências geradas
+*.gz
+*.br
+
+# Cache local
+tailwind.config.js.backup
+

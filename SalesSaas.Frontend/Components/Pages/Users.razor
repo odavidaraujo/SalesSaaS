@@ -1,0 +1,25 @@
+﻿@page "/users"
+@using SalesSaas.Frontend.Services
+@inject UserService UserService
+
+<h1 class="text-xl font-bold mb-4">Usuários</h1>
+
+@if (users == null) {
+    <p>Carregando...</p>
+} else if (users.Count == 0) {
+    <p>Nenhum usuário encontrado.</p>
+} else {
+    <ul class="list-disc pl-5">
+        @foreach (var user in users) {
+            <li>@user.Name</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<UserDto> users;
+
+    protected override async Task OnInitializedAsync() {
+        users = await UserService.GetUsersAsync();
+    }
+}

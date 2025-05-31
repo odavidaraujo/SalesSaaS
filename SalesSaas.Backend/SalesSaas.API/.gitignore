@@ -1,0 +1,75 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+
+# Rider
+.idea/
+
+# Packages
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+*.vsix
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+.nuget/packages/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Logs
+*.log
+
+# User-specific files
+*.rsuser
+*.sln.ide
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup & cache
+*.bak
+*.cache
+
+# Publish output
+publish/
+PublishProfiles/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Test results
+TestResults/
+
+# Visual Studio Code
+.vscode/
+
+# Others
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Ignore any secrets file
+*.secret.json
+
+
+# Ignore Environment variables
+.env
+

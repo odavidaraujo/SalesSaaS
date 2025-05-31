@@ -1,0 +1,19 @@
+@SalesSaas.API_HostAddress = http://localhost:5179
+
+GET {{SalesSaas.API_HostAddress}}/api/users
+Accept: application/json
+
+###
+
+POST {{SalesSaas.API_HostAddress}}/api/users
+Content-Type: application/json
+{
+  "name": "João da Loja",
+  "email": "joao@email.com",
+  "password": "123456"
+}
+
+###
+
+GET {{SalesSaas.API_HostAddress}}/api/users/{{id}}
+Accept: application/json
